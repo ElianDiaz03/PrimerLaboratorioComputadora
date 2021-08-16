@@ -32,6 +32,14 @@ namespace Computadora.Negocio
             return " La RAM de la computadora " + computadora.RAM1 + " Con la placa madre de " + computadora.Placamadre + " Estan Reiniciandose " ; 
        
         }
+        public String Mouse(ClsComputadora computadora)
+
+        {
+            return " El mouse " + computadora.Mause + " No está puesto ";
+
+
+        }
+
     }
 }
 

@@ -38,7 +38,6 @@ namespace Computadora.Entidades
         public string Microprocesador { get => microprocesador; set => microprocesador = value; }
         public int Placamadre { get => placamadre; set => placamadre = value; }
         public string Tarjetadevideo { get => tarjetadevideo; set => tarjetadevideo = value; }
-
     }
 
 }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Computadora.Entidades;
+using Computadora.Negocio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +12,16 @@ namespace Computadora
     {
         static void Main(string[] args)
         {
+
+            ClsComputadora clscomputadora = new ClsComputadora();
+            NClsComputadora nclscomputadora = new NClsComputadora();
+            clscomputadora.Almacenamiento = 256;
+            clscomputadora.RAM1 = 8;
+
+            Console.WriteLine(nclscomputadora.Encender(clscomputadora));
+
+            Console.ReadLine();
+
         }
     }
 }
